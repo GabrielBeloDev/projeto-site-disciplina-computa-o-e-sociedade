@@ -1,5 +1,4 @@
 <?php
-  header('Content-Disposition:inline; filename=formulario.php');
   header('Content-Type: text/html');
   if(isset($_POST['enviar'])) 
   {
