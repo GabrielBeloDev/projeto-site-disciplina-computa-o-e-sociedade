@@ -1,4 +1,7 @@
 <?php
+heaader('Conent-Disposition:inline;
+filename=formulario.php');
+header('Content-Type: text/html');
 if(isset($_POST['enviar'])) 
 {
   include_once('config.php');
